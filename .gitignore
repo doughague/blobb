@@ -1,0 +1,35 @@
+################################################################
+# \file      .gitignore
+# \brief     Exclude files for blobb project
+# \author    Doug Hague
+# \date      08.06.2014
+# \copyright GPLv3
+################################################################
+
+# be sure to include sources
+!include/
+include/blobb/Config.hh
+!src/
+
+# build directory
+build/
+
+# documentation
+doc/*
+!doc/doxy.cfg.in
+!doc/mainpage.cxx.in
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# GNU/Linux #
+#############
+.*
+!.gitignore
+*~
+
