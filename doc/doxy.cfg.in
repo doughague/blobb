@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------
+# \file      doxy.cfg
+# \brief     Input file for doxygen configuration.
+# \author    Doug Hague
+# \date      01.03.2014
+# \copyright See License.txt
+# ---------------------------------------------------------------
+
+PROJECT_NAME           = "@GAMMET_CPP_MONIKER@"
+PROJECT_NUMBER         = "@GAMMET_CPP_VERSION@"
+PROJECT_BRIEF          = "@GAMMET_CPP_TITLE@"
+OUTPUT_DIRECTORY       = @doc_dir@
+WARN_LOGFILE           = @doc_wlog@
+PROJECT_LOGO           =
+FILE_PATTERNS          = *.hh *.cxx
+INPUT                  = @doc_dir@ @doc_head_dir@ @doc_src_dir@
+RECURSIVE              = YES
+SOURCE_BROWSER         = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES

@@ -1,0 +1,16 @@
+/** \file      mainpage.cxx
+    \brief     Documentation overview: not source code!
+    \author    Doug Hague
+    \date      2014
+    \copyright See License.txt
+*/
+/*! \mainpage
+    \author    @BLOBB_AUTHOR@ 
+    \version   @BLOBB_VERSION@
+    \date      @BLOBB_YEAR@
+    \copyright See License.txt
+
+    \section Overview
+    This package includes tools for building and implementing 
+    Bleed or Be Bled: A command-line arena game.
+*/
