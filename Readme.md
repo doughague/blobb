@@ -82,7 +82,7 @@ Some things to do include:
 # License
 This software is licensed under the 
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html), 
-see [License.txt]().
+see [License.txt](https://github.com/doughague/blobb/blob/master/License.txt).
 
 This software uses (and redistributes) the 
 [cereal C++11 library for serialization](https://github.com/USCiLab/cereal) 
