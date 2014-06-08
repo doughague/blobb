@@ -8,7 +8,8 @@
 
 namespace Blobb {
 
-const string CLUI::Prefix = "[BloBB]> ";
+const string CLUI::Prefix = "\e[1;41m[BloBB]\e[m \e[1;31m\xE2\x9E\xB3\e[m ";
+// const string CLUI::Prefix = "[BloBB]> ";
 
 //_____________________________________________________________________________
 /** Default constructor. */
