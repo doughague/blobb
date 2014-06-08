@@ -1,0 +1,57 @@
+/** \file      Config.hh 
+    \brief     Configurations for lib@BLOBB_LIB_NAME@.
+    \author    Doug Hague
+    \date      07.06.2014
+    \copyright See License.txt
+*/
+#ifndef BLOBB_CONFIG_HH
+#define BLOBB_CONFIG_HH
+
+//! project name
+#define BLOBB_NAME    @PROJECT_NAME@
+//! project moniker
+#define BLOBB_MONIKER "@BLOBB_MONIKER@"
+//! project title
+#define BLOBB_TITLE   "@BLOBB_TITLE@"
+
+//! project major version
+#define BLOBB_VERSION_MAJOR @BLOBB_VERSION_MAJOR@
+//! project minor version
+#define BLOBB_VERSION_MINOR @BLOBB_VERSION_MINOR@
+//! project patch version
+#define BLOBB_VERSION_PATCH @BLOBB_VERSION_PATCH@
+//! project version
+#define BLOBB_VERSION "@BLOBB_VERSION@"
+
+//! install prefix
+#define BLOBB_PREFIX  "@CMAKE_INSTALL_PREFIX@"
+//! install include cflags
+#define BLOBB_CFLAGS  "-I@CMAKE_INSTALL_PREFIX@include/@BLOBB_MONIKER@"
+//! install library ldflags
+#define BLOBB_LDFLAGS "-L@CMAKE_INSTALL_PREFIX@lib/ -l@BLOBB_MONIKER@"
+//! install static library
+#define BLOBB_STATIC  "@CMAKE_INSTALL_PREFIX@lib/lib@BLOBB_MONIKER@.a"
+
+//! source prefix
+#define BLOBB_LOCAL_PREFIX  "@BLOBB_SOURCE_DIR@"
+//! library name
+#define BLOBB_LIB_NAME      "@BLOBB_LIB_NAME@"
+//! local head directory
+#define BLOBB_LOCAL_CFLAGS  "-I@BLOBB_SOURCE_DIR@/include/"
+//! local library directory
+#define BLOBB_LOCAL_LDFLAGS "-L@BLOBB_BINARY_DIR@/lib/ -l@BLOBB_LIB_NAME@"
+//! local library directory
+#define BLOBB_LOCAL_STATIC  "@BLOBB_BINARY_DIR@/lib/lib@BLOBB_LIB_NAME@.a"
+
+//! author
+#define BLOBB_AUTHOR    "@BLOBB_AUTHOR@"
+//! year
+#define BLOBB_YEAR      "@BLOBB_YEAR@"
+//! copyright
+#define BLOBB_COPYRIGHT "Copyright (C) @BLOBB_YEAR@\n"                 \
+                        "@BLOBB_AUTHOR@\n"                             \
+                        "This program comes with ABSOLUTELY NO WARRANTY.\n" \
+                        "ALL RELEVANT COPYRIGHTS AND RESTRICTIONS APPLY.\n" \
+                        "See @BLOBB_SOURCE_DIR@/License.txt"
+
+#endif // end BLOBB_CONFIG_HH
