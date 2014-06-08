@@ -26,7 +26,8 @@ namespace Blobb {
 
 //_____________________________________________________________________________
 //! Prefix for log messages.
-static string gLogPrefix = "BloBB";
+static string gLogPrefix = "\x1b[1;41m[BloBB]\x1b[m \x1b[1;31m\xE2\x9E\xB3\x1b[m ";
+// static string gLogPrefix = "BloBB";
 
 //_____________________________________________________________________________
 /** Set the prefix for log messages. */
