@@ -104,7 +104,7 @@ string GetArchiveExt(eArchiveType algo)
 //! Get an algorithm title string from the enumerated value.Print algorithm information to the stream 
 void PrintArchiveInfo(ostream& os, const string& prefix)
 {
-  os << prefix << "NAME    DESCCRIPTION" << endl;
+  os << prefix << "NAME    DESCRIPTION" << endl;
   os << prefix << "Binary  " << gArchiveTitles[kBinary] << endl;
   os << prefix << "JSON    " << gArchiveTitles[kJson] << endl;
   os << prefix << "XML     " << gArchiveTitles[kXml] << endl;

@@ -1,4 +1,4 @@
-/** \file      src/lib/BloBB.cxx 
+/** \file      src/lib/BloBB.cxx
     \brief     Source for BloBB 
     \author    John D. Hague
     \date      07.06.2014
@@ -19,7 +19,7 @@ namespace Blobb {
 
 //_____________________________________________________________________________
 /** \typedef Warriors_t::iterator warIter 
-    \brief An iterator over a std::map of Warrior's. 
+    \brief An iterator over a std::map of Warrior's.
 */
 typedef Warriors_t::iterator warIter;
 /** \typedef Warriors_t::iterator warCIter 
@@ -123,13 +123,13 @@ Int_t BloBB::main()
   string cmd = readCommand();
   while(kTrue){
     // check commands
-    if     (cmd=="Q" || cmd=="quit")     break;
-    else if(cmd=="L" || cmd=="load")     loadState();
-    else if(cmd=="S" || cmd=="save")     saveState();
-    else if(cmd=="M" || cmd=="menu")     printMenu();
-    else if(cmd=="W" || cmd=="warriors") printWarriors();
-    else if(cmd=="R" || cmd=="register") registerWarrior();
-    else if(cmd=="F" || cmd=="fight")    fight();
+    if     (cmd=="Q" || cmd=="q" || cmd=="quit")     break;
+    else if(cmd=="L" || cmd=="l" || cmd=="load")     loadState();
+    else if(cmd=="S" || cmd=="s" || cmd=="save")     saveState();
+    else if(cmd=="M" || cmd=="m" || cmd=="menu")     printMenu();
+    else if(cmd=="W" || cmd=="w" || cmd=="warriors") printWarriors();
+    else if(cmd=="R" || cmd=="r" || cmd=="register") registerWarrior();
+    else if(cmd=="F" || cmd=="f" || cmd=="fight")    fight();
     else{
       mClui.os() << "Unknown command: \"" << cmd << "\"" << endl;
       printMenu();
@@ -230,7 +230,7 @@ void BloBB::registerWarrior()
     if(mWarriors.count(w.name()) == 0) addWarrior(w);
     else {
       loutW(InputArguments) << "Warrior named \"" << w.name() << "\" already exists!" << endl;
-      mClui.request("overwrite this warrior with new values? (y/N)");
+      mClui.request("overwrite this warrior with new values? (Y/N)");
       string yorn = mClui.readString();
       if(yorn=="y" || yorn=="Y") addWarrior(w);
       else return;

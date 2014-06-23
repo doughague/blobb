@@ -34,10 +34,10 @@ Int_t FightEngine::fight()
   string cmd = readCommand();
   while(kTrue){
     // check commands
-    if     (cmd=="Q" || cmd=="quit")  break;
-    else if(cmd=="M" || cmd=="menu")  printMenu();
-    else if(cmd=="S" || cmd=="swing") swing();
-    else if(cmd=="D" || cmd=="death") death();
+    if     (cmd=="Q" || cmd=="q" || cmd=="quit")  break;
+    else if(cmd=="M" || cmd=="m" || cmd=="menu")  printMenu();
+    else if(cmd=="S" || cmd=="s" || cmd=="swing") swing();
+    else if(cmd=="D" || cmd=="d" || cmd=="death") death();
     else{
       mClui->os() << "Unknown command: \"" << cmd << "\"" << endl;
       printMenu();

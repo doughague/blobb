@@ -1,4 +1,4 @@
-/** \file      BloBB.hh 
+/** \file      BloBB.hh
     \brief     Header for BloBB
     \author    Doug Hague
     \date      26.07.2013

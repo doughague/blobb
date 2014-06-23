@@ -1,0 +1,373 @@
+{
+    "BloBB": {
+        "Named": {
+            "Name": "BloBB",
+            "Title": "Bleed or Be Bled"
+        },
+        "StartTime": "2014-06-22 09:44:40-0400",
+        "EndTime": "2014-06-22 18:51:11-0400",
+        "Random": {
+            "Seed": 1403473480,
+            "NumIter": 459
+        },
+        "Warriors": [
+            {
+                "key": "Alice",
+                "value": {
+                    "Named": {
+                        "Name": "Alice",
+                        "Title": "A Strong Warrior"
+                    },
+                    "Prowess": {
+                        "Named": {
+                            "Name": "Prowess",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 20,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Agility": {
+                        "Named": {
+                            "Name": "Agility",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 15,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Intelligence": {
+                        "Named": {
+                            "Name": "Intelligence",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 5,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Personality": {
+                        "Named": {
+                            "Name": "Personality",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Health": {
+                        "Named": {
+                            "Name": "Health",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 5,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fatigue": {
+                        "Named": {
+                            "Name": "Fatigue",
+                            "Title": ""
+                        },
+                        "Value": 51,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Stun": {
+                        "Named": {
+                            "Name": "Stun",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Disarm": {
+                        "Named": {
+                            "Name": "Disarm",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fallen": {
+                        "Named": {
+                            "Name": "Fallen",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "FatigueTime": {
+                        "Named": {
+                            "Name": "FatigueTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "HealthTime": {
+                        "Named": {
+                            "Name": "HealthTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    }
+                }
+            },
+            {
+                "key": "Bob",
+                "value": {
+                    "Named": {
+                        "Name": "Bob",
+                        "Title": "A Weak Warrior"
+                    },
+                    "Prowess": {
+                        "Named": {
+                            "Name": "Prowess",
+                            "Title": ""
+                        },
+                        "Value": 57.5,
+                        "Error": 20,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Agility": {
+                        "Named": {
+                            "Name": "Agility",
+                            "Title": ""
+                        },
+                        "Value": 50,
+                        "Error": 15,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Intelligence": {
+                        "Named": {
+                            "Name": "Intelligence",
+                            "Title": ""
+                        },
+                        "Value": 50,
+                        "Error": 5,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Personality": {
+                        "Named": {
+                            "Name": "Personality",
+                            "Title": ""
+                        },
+                        "Value": 50,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Health": {
+                        "Named": {
+                            "Name": "Health",
+                            "Title": ""
+                        },
+                        "Value": 50,
+                        "Error": 5,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fatigue": {
+                        "Named": {
+                            "Name": "Fatigue",
+                            "Title": ""
+                        },
+                        "Value": 47,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Stun": {
+                        "Named": {
+                            "Name": "Stun",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Disarm": {
+                        "Named": {
+                            "Name": "Disarm",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fallen": {
+                        "Named": {
+                            "Name": "Fallen",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "FatigueTime": {
+                        "Named": {
+                            "Name": "FatigueTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "HealthTime": {
+                        "Named": {
+                            "Name": "HealthTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    }
+                }
+            },
+            {
+                "key": "josie",
+                "value": {
+                    "Named": {
+                        "Name": "josie",
+                        "Title": "newguy"
+                    },
+                    "Prowess": {
+                        "Named": {
+                            "Name": "Prowess",
+                            "Title": ""
+                        },
+                        "Value": 75,
+                        "Error": 25,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Agility": {
+                        "Named": {
+                            "Name": "Agility",
+                            "Title": ""
+                        },
+                        "Value": 57,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Intelligence": {
+                        "Named": {
+                            "Name": "Intelligence",
+                            "Title": ""
+                        },
+                        "Value": 75,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Personality": {
+                        "Named": {
+                            "Name": "Personality",
+                            "Title": ""
+                        },
+                        "Value": 80,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Health": {
+                        "Named": {
+                            "Name": "Health",
+                            "Title": ""
+                        },
+                        "Value": 60,
+                        "Error": 10,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fatigue": {
+                        "Named": {
+                            "Name": "Fatigue",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Stun": {
+                        "Named": {
+                            "Name": "Stun",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Disarm": {
+                        "Named": {
+                            "Name": "Disarm",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "Fallen": {
+                        "Named": {
+                            "Name": "Fallen",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "FatigueTime": {
+                        "Named": {
+                            "Name": "FatigueTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    },
+                    "HealthTime": {
+                        "Named": {
+                            "Name": "HealthTime",
+                            "Title": ""
+                        },
+                        "Value": 0,
+                        "Error": 1,
+                        "Min": 0,
+                        "Max": 100
+                    }
+                }
+            }
+        ]
+    }
+}

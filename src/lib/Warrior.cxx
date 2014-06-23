@@ -270,21 +270,21 @@ Bool_t Warrior::readFromUI(CLUI& clui, Bool_t verbose)
 { 
   // local menu
   if(verbose){
-    clui.os() << "Warroir attribute menu: " << endl;
+    clui.os() << "Warrior attribute menu: " << endl;
     clui.os() << "  (0) None/exit" << endl;
-    clui.os() << "  (1) Name & title" << endl;
-    clui.os() << "  (2) Prowess" << endl;
-    clui.os() << "  (3) Agility" << endl;
-    clui.os() << "  (4) Intelligence" << endl;
-    clui.os() << "  (5) Personality" << endl;  
-    clui.os() << "  (6) Health" << endl;  
+    clui.os() << "  (1) Name & title (" << name() << ", " << title() << ")" << endl;
+    clui.os() << "  (2) Prowess (" << mProwess.value() << "~" << mProwess.error() << ")" << endl;
+    clui.os() << "  (3) Agility (" << mAgility.value() << "~" << mAgility.error() << ")" << endl;
+    clui.os() << "  (4) Intelligence (" << mIntelligence.value() << "~" << mIntelligence.error() << ")" << endl;
+    clui.os() << "  (5) Personality (" << mPersonality.value() << "~" << mPersonality.error() << ")" << endl;
+    clui.os() << "  (6) Health (" << mHealth.value() << "~" << mHealth.error() << ")" << endl;
   }
 
   // request
   clui.request("attribute (0-6) to update for Warrior::"+name());
   Int_t attrib = UInt_t(clui.readDouble());
   switch(attrib){
-  case 0: 
+  case 0:
     return kTrue;
   case 1: 
     Named::readFromUI(clui);
@@ -312,6 +312,8 @@ Bool_t Warrior::readFromUI(CLUI& clui, Bool_t verbose)
   }
 
   // introspect, user must enter 0 to exit!!
+    // bug: error values not assigning
+    // bug: new names can't be referenced for subsequent warrior edits
   readFromUI(clui);
   return kTrue;
 }
